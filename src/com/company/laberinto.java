@@ -1,7 +1,7 @@
 package com.company;
 
 public class laberinto {
-    public static int [] mov_rel_x = {-1,0,0,1};
+    public static int [] mov_rel_x = {1,0,0,-1};
     public static int [] mov_rel_y = {0,1,-1,0};
 
     public static void imprimir (char tablero[][]){
@@ -42,9 +42,14 @@ public class laberinto {
         return exito;
     }
     public static void main(String[] args) {
-        char tablero [][] = new char[10][10];
+        char tablero [][] = new char[9][9];
+        for(int i = 0;i<tablero.length;i++){
+            for(int j =0;j<tablero.length;j++){
+                tablero[i][j] = 'O';
+            }
+        }
         tablero[0][0] = 'E'; //Entrada al laberito
-        tablero[9][9] = 'S'; //Salida del laberinto
+        tablero[8][8] = 'S'; //Salida del laberinto
 
         tablero[1][1] = 'M';
         tablero[1][2] = 'M';
