@@ -48,5 +48,14 @@ public class saltoCaballo {
         return true;
     }
 
+    public static void main(String[] args) {
+        int [][]tablero = new int [5][5];
+        tablero[1][1] = 1;
+        saltoCaballo s = new saltoCaballo();
+        boolean exito = s.BT (tablero,2,1,1);
+        if (exito){
+            s.imprimir (tablero);
+        }
+    }
 }
 

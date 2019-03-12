@@ -71,6 +71,13 @@ public class partirVector {
         System.out.println("");
     }
 
+    public static void main(String[] args) {
+        // Main partir vector
+        partirVector p = new partirVector();
+        int v [];
+        v = new int [] {4,2,6,1,1,2};
+        p.partirenDos(v);
+    }
 }
 
 

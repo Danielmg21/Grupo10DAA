@@ -1,6 +1,6 @@
 package com.company;
 
-public class hortelano {
+public class hortelano  {
     private static int N = 5;//Num huertas
     private static int K = 8;//maxima caducidad
     private static int Libre = -1;//marca de que no hay huerta asignada;
@@ -38,6 +38,25 @@ public class hortelano {
         }
         return s;
     }
+    public static void main(String[] args){
+        int huertas [][]={{3,8,2,3,1},{1,2,5,6,4}};//huertas[0]= fechas caducidad; huertas[1]=beneficios
+        int solucion[];
 
-
+        hortelano horte = new hortelano();
+        //imprimir datos
+        System.out.println(" h: ");
+        for ( int i=0;i<N;i++){
+            System.out.println(i+", ");
+        }
+        System.out.print("/nfc: ");
+        for(int i=0;i<N;i++){
+            System.out.print(huertas[1][i]+", ");
+        }
+        System.out.print("/n");
+        //solucion
+        solucion = horte.soluVoraz(huertas);
+        for(int i=0;i<K;i++){
+            System.out.print(solucion[i]+", ");
+        }
+    }
 }

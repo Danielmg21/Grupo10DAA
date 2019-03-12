@@ -14,7 +14,7 @@ public class laberinto {
         }
     }
 
-    public static boolean esFactible (char tablero[][],int etapax,int etapay,int numPaso,int nuevax,int nuevay,int intento){
+    public static boolean esFactible (char tablero[][],int etapax,int etapay,int numPaso,int nuevax,int nuevay){
         if((nuevax<0)||(nuevax>=tablero.length)||(nuevay<0)||(nuevay>=tablero.length))
             return false;
         if((tablero[nuevax][nuevay]=='M')||(tablero[nuevax][nuevay]=='E')||(tablero[nuevax][nuevay]=='X'))
@@ -27,7 +27,7 @@ public class laberinto {
         for (int intento=0;intento<mov_rel_x.length&&!exito;intento++){
             int nuevax = etapax+mov_rel_x[intento];
             int nuevay = etapay+mov_rel_y[intento];
-            if (esFactible(tablero,etapax,etapay,numPaso,nuevax,nuevay,intento)){
+            if (esFactible(tablero,etapax,etapay,numPaso,nuevax,nuevay)){
                 if(tablero[nuevax][nuevay]=='S'){
                     exito=true;
                 }else{
@@ -41,5 +41,22 @@ public class laberinto {
         }
         return exito;
     }
+    public static void main(String[] args) {
+        char tablero [][] = new char[10][10];
+        tablero[0][0] = 'E'; //Entrada al laberito
+        tablero[9][9] = 'S'; //Salida del laberinto
 
+        tablero[1][1] = 'M';
+        tablero[1][2] = 'M';
+        tablero[1][3] = 'M';
+        tablero[1][4] = 'M';
+        tablero[1][5] = 'M';
+
+        boolean exito = BT (tablero,0,0,1);
+        if(exito){
+            imprimir (tablero);
+        }else{
+            System.out.println("No hay solucion");
+        }
+    }
 }
