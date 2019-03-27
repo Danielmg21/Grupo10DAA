@@ -1,0 +1,43 @@
+
+Tsquid:S1197"8Move the array designator from the variable to the type.(Ë‚¨Îÿÿÿÿÿ
+Tsquid:S1197l"8Move the array designator from the variable to the type.(«€—Šşÿÿÿÿ
+Fsquid:S1444"/Make this "public static mov_rel_x" field final(ßÏ©İ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞŸ ó
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÑêÊ—
+Bsquid:S11724"&Remove these unused method parameters.(ÔÅ„Ôÿÿÿÿÿ
+Xsquid:S11269"AReplace this if-then-else statement by a single return statement.(æ™Ï
+Osquid:S1197"8Move the array designator from the variable to the type.(Ô‰©Æ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+ksquid:S3008"TRename this field "mov_rel_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÏ©İ
+Tsquid:S1197l"8Move the array designator from the variable to the type.(«€—Šşÿÿÿÿ
+4squid:S2386"Make this member "protected".(ßÏ©İ
+9squid:S2386"Make this member "protected".(ªÅÔÈÿÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(£ı‰±øÿÿÿÿ
+Tsquid:S11974"8Move the array designator from the variable to the type.(ÔÅ„Ôÿÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(£ı‰±øÿÿÿÿ
+Tsquid:S11974"8Move the array designator from the variable to the type.(ÔÅ„Ôÿÿÿÿÿ
+=squid:S1172?"&Remove these unused method parameters.(ÉíÛ
+ˆ"squid:ClassVariableVisibilityCheck"UMake mov_rel_y a static final constant or non-public and provide accessors if needed.(ªÅÔÈÿÿÿÿÿ
+csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚×İæ
+Psquid:S1197”"8Move the array designator from the variable to the type.(ƒÔ‚Î
+Osquid:S1197?"8Move the array designator from the variable to the type.(ÉíÛ
+Tsquid:S1197~"8Move the array designator from the variable to the type.(˜œŞÚÿÿÿÿÿ
+ksquid:S00100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¬Òøÿÿÿÿ
+O
+squid:S106a"9Replace this use of System.out or System.err by a logger.(«ª¿ö
+Osquid:S1197"8Move the array designator from the variable to the type.(Ô‰©Æ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(çì½—şÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"UMake mov_rel_x a static final constant or non-public and provide accessors if needed.(ßÏ©İ
+Ysquid:S001074"<Method has 8 parameters, which is greater than 7 authorized.(ÔÅ„Ôÿÿÿÿÿ
+psquid:S3008"TRename this field "mov_rel_y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÅÔÈÿÿÿÿÿ
+Nsquid:S1197["8Move the array designator from the variable to the type.(Œœ…
+Ksquid:S1444"/Make this "public static mov_rel_y" field final(ªÅÔÈÿÿÿÿÿ
+esquid:S00100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œœ…
+Tsquid:S1197G"8Move the array designator from the variable to the type.(ô¬Òøÿÿÿÿ
+Xsquid:S1126B"AReplace this if-then-else statement by a single return statement.(ºşˆ¡
+ksquid:S00100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«€—Šşÿÿÿÿ

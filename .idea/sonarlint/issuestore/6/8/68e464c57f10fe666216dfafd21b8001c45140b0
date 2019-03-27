@@ -1,0 +1,25 @@
+
+gsquid:S3008"PRename this field "Libre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÒŸÈ
+Tsquid:S1197"8Move the array designator from the variable to the type.(Õì÷¯ÿÿÿÿÿ
+Tsquid:S1197	"8Move the array designator from the variable to the type.(×ìÿØûÿÿÿÿ
+hsquid:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œéıøÿÿÿÿ
+T
+squid:S106/"9Replace this use of System.out or System.err by a logger.(Ôƒù”ûÿÿÿÿ
+Nsquid:S1197*"8Move the array designator from the variable to the type.(ıÕ
+csquid:S3008"LRename this field "K" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÁß¹
+T
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ÛÖ›ñÿÿÿÿÿ
+N
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Ú—ËW
+Tsquid:S1197"8Move the array designator from the variable to the type.(ìÑ±”ùÿÿÿÿ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(°šïÛøÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(²°‹úûÿÿÿÿ
+T
+squid:S1063"9Replace this use of System.out or System.err by a logger.(¹àÁøÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤üğÍûÿÿÿÿ
+Osquid:S1197+"8Move the array designator from the variable to the type.(³‰èÔ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®ÒŸÈ
+5squid:S1659"Declare "j" on a separate line.(ÛÂ²b
+Osquid:S1197"8Move the array designator from the variable to the type.(‚áò•

@@ -39,9 +39,9 @@ public class cuboMágico {
                 if((etapax==tablero.length-1)&&(etapay==tablero.length-1)){
                     exito=true;
                 }else{
-                    int nuevax = DameNuevaX(etapax,etapay,tablero.length-1);
-                    int nuevay = DameNuevaY(etapax,etapay,tablero.length-1);
-                    exito=BTuna (tablero,nuevax,nuevay);
+                    //int nuevax = DameNuevaX(etapax,etapay,tablero.length-1);
+                    //int nuevay = DameNuevaY(etapax,etapay,tablero.length-1);
+                    //exito=BTuna (tablero,nuevax,nuevay);
                 }
             }
             if(!exito){

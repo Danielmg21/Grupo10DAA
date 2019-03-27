@@ -1,0 +1,14 @@
+
+Isquid:S1135P"2Complete the task associated to this TODO comment.(ÌûŽû
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(… ¼Á
+T
+squid:S106S"9Replace this use of System.out or System.err by a logger.(ª’¸¥ùÿÿÿÿ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“øÄÎüÿÿÿÿ
+T
+squid:S106<"9Replace this use of System.out or System.err by a logger.(Á¥â­ýÿÿÿÿ
+Nsquid:S1197"8Move the array designator from the variable to the type.(Ë Õ"
+T
+squid:S106J"9Replace this use of System.out or System.err by a logger.(ˆñ¦ïþÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(“øÄÎüÿÿÿÿ
+Tsquid:S1197Q"8Move the array designator from the variable to the type.(—Ý½üÿÿÿÿ
+hsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë Õ"

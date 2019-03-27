@@ -1,0 +1,11 @@
+
+Tsquid:S11979"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+n
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(•Í
+T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(¢³©Ïùÿÿÿÿ
+Fsquid:S1481"*Remove this unused "exito" local variable.(ÉÒû›şÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Âêïªøÿÿÿÿ
+Qsquid:S2209V"5Change this instance-reference to a static reference.(ß×Ñüÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™…ÄÌúÿÿÿÿ
+Usquid:S1854"9Remove this useless assignment to local variable "exito".(ÉÒû›şÿÿÿÿ

@@ -1,0 +1,33 @@
+
+`squid:S1854"BRemove this useless assignment to local variable "letra_a_buscar".(­‰±”8ó¦¥ò›-
+Msquid:S00108")Either remove or fill this block of code.(¸Ïò÷ıÿÿÿÿ8ó¦¥ò›-
+usquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö³Ûøÿÿÿÿ8ó¦¥ò›-
+{"squid:ClassVariableVisibilityCheck"MMake N a static final constant or non-public and provide accessors if needed.(ó¨§š
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‰±”
+Tsquid:S1197"8Move the array designator from the variable to the type.(”ìÁøÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª•åûûÿÿÿÿ
+Zsquid:S25834"DChange this condition so that it does not always evaluate to "false"(„…±<
+†"squid:ClassVariableVisibilityCheck"SMake palabra a static final constant or non-public and provide accessors if needed.(¼”¢ùÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+Ssquid:S1751#"6Remove this "return" statement or make it conditional.(¸®Ã'8ó¦¥ò›-
+Osquid:S1197"8Move the array designator from the variable to the type.( Ñü¹
++squid:S1700"Rename field "cubos"( Ñü¹
+"squid:ClassVariableVisibilityCheck"QMake cubos a static final constant or non-public and provide accessors if needed.( Ñü¹
+csquid:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó¨§š
+>squid:S1444"'Make this "public static N" field final(ó¨§š
+’squid:S1319"vThe type of the "cubosLibres" object should be an interface such as "List" rather than the implementation "ArrayList".(”ìÁøÿÿÿÿ
+O
+squid:S1067"9Replace this use of System.out or System.err by a logger.(€±¯³
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¾áåÓ
+4squid:S2386"Make this member "protected".( Ñü¹
+Fsquid:S1172"*Remove this unused method parameter "sol".(”ìÁøÿÿÿÿ
+usquid:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(äú†Ëúÿÿÿÿ
+Qsquid:S1481"3Remove this unused "letra_a_buscar" local variable.(­‰±”8ó¦¥ò›-
+Isquid:S1444"-Make this "public static palabra" field final(¼”¢ùÿÿÿÿ
+Bsquid:S1444"+Make this "public static cubos" field final( Ñü¹
+Osquid:S1197"8Move the array designator from the variable to the type.(“°ß
+dsquid:S1126!"AReplace this if-then-else statement by a single return statement.(Ôá¢üÿÿÿÿ8ó¦¥ò›-
+Tsquid:S1197("8Move the array designator from the variable to the type.(ÍÌÿ¥ÿÿÿÿÿ
