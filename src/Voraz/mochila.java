@@ -35,37 +35,25 @@ public class mochila {
                 solucion[i]=1.0;
                 peso_mochila=peso_mochila-peso[i];
             }else {
-                solucion[i]=(double)peso_mochila/peso[i];
+                solucion[i]= peso_mochila/peso[i];
                 peso_mochila=0;
             }
         }
     }
+
     public static void imprimir (String ids[], double solucion[], int peso[], int beneficio[]) {
         double resultado = 0;
         for (int i=0; i<ids.length; i++) {
             if (solucion[i]>0)
                 System.out.println("Objeto con id = "+ids[i]+" porcentaje del objeto: "+solucion[i]+ " con peso: "+peso [i] +
-                        "y defensa: "+ solucion[i]*beneficio[i]);}
+                        " y defensa: "+ solucion[i]*beneficio[i]);}
         for(int j = 0; j<ids.length; j++){
             if (solucion[j]>0)
                 resultado = resultado + solucion[j]*beneficio[j];
         }
         System.out.println("Defensa total: " + resultado);
     }
-    private static void imprimir (int[] salida){
-        System.out.print("Array: (");
-        for(int i = 0; i<salida.length-1; i++){
-            System.out.print(salida[i]+ ", ");
-        }
-        System.out.println(salida[salida.length-1]+")");
-    }
-    private static void imprimir (String[] salida){
-        System.out.print("Array: (");
-        for(int i = 0; i<salida.length-1; i++){
-            System.out.print(salida[i]+ ", ");
-        }
-        System.out.println(salida[salida.length-1]+")");
-    }
+
     public static void main(String[] args) {
         int numPiezas;
         double pesototal;
@@ -89,29 +77,19 @@ public class mochila {
         double bp[] = new double [numPiezas];
 
         for(int i=0; i<numPiezas; i++) {
-            System.out.print("Introducir pieza(beneficio peso id): ");
+            System.out.print("Introducir pieza(id peso beneficio): ");
             String strvector = entrada.nextLine();
             String[] splited = strvector.split(" ");
             ids[i] = splited[0];
             peso[i] = Integer.parseInt(splited[1]);
             beneficios[i] = Integer.parseInt(splited[2]);
         }
-        imprimir(beneficios);
-        imprimir(peso);
-        imprimir(ids);
-        System.out.println(pesototal);
-        System.out.println(modo);
-
         //Calculamos array bp (beneficio/peso)
         for (int i=0; i< beneficios.length; i++) {
-            bp [i] = beneficios[i]/peso [i];
+            bp [i] = beneficios[i]/(double)peso[i];
         }
         //Ordenar arrays en base al criterio de mayor beneficio/peso
         Ordenar (beneficios, peso, ids, bp);
-
-        imprimir(beneficios);
-        imprimir(peso);
-        imprimir(ids);
 
         double solucion [] = new double [beneficios.length];
         switch (modo){

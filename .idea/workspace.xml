@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea7b82e-e4d6-49d6-80d7-8226b64c2d81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DyV/Digito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea04bd450f1e927d3c755287a1ef85f7b243b17f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea04bd450f1e927d3c755287a1ef85f7b243b17f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/Cubos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/com/company/Cubos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/mochila.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cubos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cubos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ElementoPosicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ElementoPosicion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/cuboMágico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/cuboMágico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voraz/mochila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/mochila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/Voraz/mochila.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Voraz/mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voraz/mochila.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +17,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Voraz/mochila.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="50" column="65" lean-forward="true" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+            <state relative-caret-position="833">
+              <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DyV/Digito.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SeleccionActividades.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/partirVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -57,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Cubos.java" />
         <option value="$PROJECT_DIR$/src/com/company/ElementoPosicion.java" />
         <option value="$PROJECT_DIR$/src/Voraz/mochila.java" />
+        <option value="$PROJECT_DIR$/src/DyV/Digito.java" />
       </list>
     </option>
   </component>
@@ -92,14 +117,20 @@
               <item name="Grupo10DAA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Grupo10DAA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DyV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Grupo10DAA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Grupo10DAA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Voraz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,7 +140,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553700507220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553846569406" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -124,7 +155,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mochila">
+  <component name="RunManager" selected="Application.Digito">
+    <configuration name="Digito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DyV.Digito" />
+      <module name="DAA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DyV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DistanciaK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DistanciaK" />
       <module name="DAA" />
@@ -164,19 +208,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="laberinto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.laberinto" />
-      <module name="DAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mochila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Voraz.mochila" />
       <module name="DAA" />
@@ -186,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Digito" />
         <item itemvalue="Application.mochila" />
         <item itemvalue="Application.ElementoPosicion" />
         <item itemvalue="Application.DistanciaK" />
         <item itemvalue="Application.kruskal" />
-        <item itemvalue="Application.laberinto" />
       </list>
     </recent_temporary>
   </component>
@@ -210,17 +241,19 @@
       <workItem from="1552731557477" duration="2923000" />
       <workItem from="1553012049705" duration="1945000" />
       <workItem from="1553674147352" duration="5540000" />
-      <workItem from="1553689086958" duration="7793000" />
+      <workItem from="1553689086958" duration="9885000" />
+      <workItem from="1553766128380" duration="6331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25784000" />
+    <option name="totallyTimeSpent" value="34207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5651491" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -230,7 +263,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32569557" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33388704" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -289,24 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/partirVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/hortelano.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SeleccionActividades.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -345,10 +364,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SeleccionActividades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/partirVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Voraz/mochila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="50" column="65" lean-forward="true" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+        <state relative-caret-position="833">
+          <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DyV/Digito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>

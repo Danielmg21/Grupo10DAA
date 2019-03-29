@@ -1,41 +1,56 @@
 
-Tsquid:S1197"8Move the array designator from the variable to the type.(ˆŠÜøÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(ˆŠÜøÿÿÿÿ
-Tsquid:S1197+"8Move the array designator from the variable to the type.(Œ£œ¦úÿÿÿÿ
-[
-squid:S1066"9Replace this use of System.out or System.err by a logger.(é»ú›şÿÿÿÿ8şÄ´ó›-
-[
-squid:S106F"9Replace this use of System.out or System.err by a logger.(ëÀ©ùÿÿÿÿ8»§¨ó›-
-Tsquid:S1197"8Move the array designator from the variable to the type.(â•™„øÿÿÿÿ
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ëŒ±8ï‰–ó›-
-isquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ïøï
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â•™„øÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(ˆŠÜøÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(â•™„øÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(â•™„øÿÿÿÿ
-nsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(Ûº­Ôÿÿÿÿÿ8à¦ó›-
-Tsquid:S1197"8Move the array designator from the variable to the type.(â•™„øÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(â•™„øÿÿÿÿ
-T
-squid:S106."9Replace this use of System.out or System.err by a logger.(Ùğôúÿÿÿÿ
-Tsquid:S1197A"8Move the array designator from the variable to the type.(Ö¹”çşÿÿÿÿ
+V
+squid:S1065"9Replace this use of System.out or System.err by a logger.(°²š£8³ñ€ş›-
+V
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ìØ…Ñ8İñù›-
+V
+squid:S1068"9Replace this use of System.out or System.err by a logger.(±÷õÖ8şÄ´ó›-
+V
+squid:S106?"9Replace this use of System.out or System.err by a logger.(±÷õÖ8İñù›-
 jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ø«ñºúÿÿÿÿ
-Osquid:S1197B"8Move the array designator from the variable to the type.(›÷Í
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆŠÜøÿÿÿÿ
-Tsquid:S1197+"8Move the array designator from the variable to the type.(Œ£œ¦úÿÿÿÿ
-^squid:S2184T"@Cast one of the operands of this integer division to a "double".(ˆç8»§¨ó›-
-[squid:S1197C"8Move the array designator from the variable to the type.(‹Ø¯Êùÿÿÿÿ8»§¨ó›-
-Tsquid:S1197+"8Move the array designator from the variable to the type.(Œ£œ¦úÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùšÒÀ
+Osquid:S1197Y"8Move the array designator from the variable to the type.(Çª©Ô
+Osquid:S1197"8Move the array designator from the variable to the type.(ùšÒÀ
+isquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¾¢÷
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ëŒ±8ï‰–ó›-
+Gsquid:S1905&")Remove this unnecessary cast to "double".(•øí™8Ê‚ı›-
+Tsquid:S1197"8Move the array designator from the variable to the type.(ÖæóÁøÿÿÿÿ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖæóÁøÿÿÿÿ
 V
-squid:S1064"9Replace this use of System.out or System.err by a logger.(ìØ…Ñ8şÄ´ó›-
+squid:S106S"9Replace this use of System.out or System.err by a logger.(ù’·ê8õà¨ù›-
+Tsquid:S1197+"8Move the array designator from the variable to the type.(ü€á¿úÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(ùšÒÀ
+Osquid:S1197"8Move the array designator from the variable to the type.(ùšÒÀ
 [
-squid:S106?"9Replace this use of System.out or System.err by a logger.(‘½ğşÿÿÿÿ8ß¾ó›-
-`squid:S2184T"BCast one of the operands of this division operation to a "double".(ˆç8»§¨ó›-
-[squid:S1197Y"8Move the array designator from the variable to the type.(àíˆ¡üÿÿÿÿ8»§¨ó›-
-Osquid:S1197D"8Move the array designator from the variable to the type.(Çª©Ô
-Bsquid:S1172"&Remove these unused method parameters.(â•™„øÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(ˆŠÜøÿÿÿÿ
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ÍÛ‡…ÿÿÿÿÿ8»§¨ó›-
+U
+squid:S106f"9Replace this use of System.out or System.err by a logger.(ÀÊ‡8°ú¦ı›-
+[squid:S1197t"8Move the array designator from the variable to the type.(àíˆ¡üÿÿÿÿ8°ú¦ı›-
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(‘½ğşÿÿÿÿ8ß¾ó›-
+`squid:S2184k"BCast one of the operands of this division operation to a "double".(ˆç8°ú¦ı›-
+Tsquid:S1197+"8Move the array designator from the variable to the type.(ü€á¿úÿÿÿÿ
+[squid:S1197+"8Move the array designator from the variable to the type.(ü€á¿úÿÿÿÿ8¢èâı›-
+Tsquid:S1197"8Move the array designator from the variable to the type.(ÖæóÁøÿÿÿÿ
 V
-squid:S1062"9Replace this use of System.out or System.err by a logger.(±÷õÖ8şÄ´ó›-
+squid:S106O"9Replace this use of System.out or System.err by a logger.(–ØÑë8õà¨ù›-
+T
+squid:S106/"9Replace this use of System.out or System.err by a logger.(‰³ÛÄÿÿÿÿÿ
+=squid:S1172"&Remove these unused method parameters.(ùšÒÀ
+^squid:S2184k"@Cast one of the operands of this integer division to a "double".(ˆç8°ú¦ı›-
+Tsquid:S1197V"8Move the array designator from the variable to the type.(Ö¹”çşÿÿÿÿ
+Osquid:S1197W"8Move the array designator from the variable to the type.(›÷Í
 V
-squid:S106M"9Replace this use of System.out or System.err by a logger.(å±üÂ8¼¼Äõ›-
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ìØ…Ñ8şÄ´ó›-
+[
+squid:S106C"9Replace this use of System.out or System.err by a logger.(é»ú›şÿÿÿÿ8İñù›-
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(é»ú›şÿÿÿÿ8şÄ´ó›-
+Tsquid:S1197"8Move the array designator from the variable to the type.(ÖæóÁøÿÿÿÿ
+[squid:S1197X"8Move the array designator from the variable to the type.(Êë¬¦ÿÿÿÿÿ8»§¨ó›-
+Osquid:S1197"8Move the array designator from the variable to the type.(ùšÒÀ
+Tsquid:S1197"8Move the array designator from the variable to the type.(ÖæóÁøÿÿÿÿ
+Tsquid:S1197+"8Move the array designator from the variable to the type.(ü€á¿úÿÿÿÿ
+V
+squid:S106g"9Replace this use of System.out or System.err by a logger.(£Ñ„°8Ëæ´ù›-
+Osquid:S1197"8Move the array designator from the variable to the type.(ùšÒÀ
