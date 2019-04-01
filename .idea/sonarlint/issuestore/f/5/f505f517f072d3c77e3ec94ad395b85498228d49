@@ -1,28 +1,28 @@
 
 Tsquid:S1197"8Move the array designator from the variable to the type.(áİÜÜùÿÿÿÿ
-Osquid:S1197	"8Move the array designator from the variable to the type.(ûøğº
-Tsquid:S1197"8Move the array designator from the variable to the type.(£îĞûÿÿÿÿÿ
-Osquid:S1197"8Move the array designator from the variable to the type.(óôıß
-O
-squid:S1069"9Replace this use of System.out or System.err by a logger.(İª¬
-O
-squid:S106@"9Replace this use of System.out or System.err by a logger.(¦Ïß×
-nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(áİÜÜùÿÿÿÿ
-T
-squid:S106<"9Replace this use of System.out or System.err by a logger.(÷‹Á®üÿÿÿÿ
-Osquid:S11978"8Move the array designator from the variable to the type.(öğƒ
-Osquid:S11978"8Move the array designator from the variable to the type.(öğƒ
-Osquid:S1197M"8Move the array designator from the variable to the type.(œï£©
-Lsquid:S2209O"5Change this instance-reference to a static reference.(ÄàÏ
-Osquid:S1197	"8Move the array designator from the variable to the type.(ûøğº
 T
 squid:S106C"9Replace this use of System.out or System.err by a logger.(÷‹Á®üÿÿÿÿ
-T
-squid:S106G"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”§Ü©øÿÿÿÿ
+Osquid:S1197	"8Move the array designator from the variable to the type.(ûøğº
+Osquid:S1197"8Move the array designator from the variable to the type.(óôıß
 Tsquid:S1197"8Move the array designator from the variable to the type.(áİÜÜùÿÿÿÿ
 T
-squid:S106F"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+squid:S106G"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+Osquid:S1197	"8Move the array designator from the variable to the type.(ûøğº
+Tsquid:S1197"8Move the array designator from the variable to the type.(£îĞûÿÿÿÿÿ
+fsquid:S00100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûøğº
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(áİÜÜùÿÿÿÿ
+O
+squid:S106@"9Replace this use of System.out or System.err by a logger.(¦Ïß×
+Osquid:S1197M"8Move the array designator from the variable to the type.(œï£©
+T
+squid:S106<"9Replace this use of System.out or System.err by a logger.(÷‹Á®üÿÿÿÿ
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(İª¬
+Osquid:S11978"8Move the array designator from the variable to the type.(öğƒ
+Osquid:S11978"8Move the array designator from the variable to the type.(öğƒ
 T
 squid:S106?"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-fsquid:S00100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûøğº
+Lsquid:S2209O"5Change this instance-reference to a static reference.(ÄàÏ
+T
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”§Ü©øÿÿÿÿ

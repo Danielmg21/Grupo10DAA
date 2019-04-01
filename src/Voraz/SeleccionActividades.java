@@ -1,4 +1,4 @@
-package com.company;
+package Voraz;
 
 import java.util.Scanner;
 
@@ -60,8 +60,8 @@ public class SeleccionActividades {
         System.out.println(cont);
     }
     public static void main(String[] args) {
-        //int c[] = {1, 2, 0, 5, 8, 5, 6, 8, 3, 2, 12};
-        //int f[] = {4, 13, 6, 7, 12, 9, 10, 11, 8, 5, 14};
+        //int ini[] = {1, 2, 0, 5, 8, 5, 6, 8, 3, 2, 12};
+        //int fin[] = {4, 13, 6, 7, 12, 9, 10, 11, 8, 5, 14};
         //boolean solucion[] = new boolean [c.length];
         //for (int i=0; i<solucion.length; i++) {
         //	solucion[i]=false;
@@ -72,7 +72,8 @@ public class SeleccionActividades {
 
         Scanner entrada = new Scanner (System.in);
         //Leemos la primera linea para ver el numero de tareas
-        int n=Integer.parseInt(entrada.nextLine());
+        int n = entrada.nextInt();
+        entrada.nextLine();
         //Ahora creamos los arrays de las dimensiones adecuadas
         c = new int[n];
         f = new int[n];

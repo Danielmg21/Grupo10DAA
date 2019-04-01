@@ -23,3 +23,9 @@ U
 %src/com/company/ElementoPosicion.java,0\e\0ec2ed490e7bed354ca8e2424284dc3b9ebbe3e4
 F
 src/Voraz/mochila.java,e\a\ea04bd450f1e927d3c755287a1ef85f7b243b17f
+C
+src/DyV/Digito.java,9\2\92b859e7197b3670ebb218d3d9881d7120a953f8
+S
+#src/Voraz/SeleccionActividades.java,4\e\4e9af47b99e3214db05ab4ee0c8334e933519114
+I
+src/Voraz/Activities.java,5\a\5a3089f43df9fe95df333d481e54ade1e9c545d4
