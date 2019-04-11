@@ -1,7 +1,7 @@
 package com.company;
 
 public class laberinto {
-    public static int [] mov_rel_x = {1,0,0,-1};
+    public static int [] mov_rel_x = {-1,0,0,1};
     public static int [] mov_rel_y = {0,1,-1,0};
 
     public static void imprimir (char tablero[][]){
