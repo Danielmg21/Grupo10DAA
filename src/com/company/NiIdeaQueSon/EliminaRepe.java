@@ -1,4 +1,4 @@
-package com.company;
+package com.company.NiIdeaQueSon;
 
 public class EliminaRepe {
     static public int[] eliminaRepetidos(int []v, int inf, int sup){

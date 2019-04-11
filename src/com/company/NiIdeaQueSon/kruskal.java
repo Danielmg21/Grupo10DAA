@@ -1,4 +1,4 @@
-package com.company;
+package com.company.NiIdeaQueSon;
 public class kruskal {
 
     public static int Kruskal (int[][] grafo) {

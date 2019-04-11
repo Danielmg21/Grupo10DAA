@@ -1,4 +1,4 @@
-package com.company;
+package Voraz;
 
 public class hortelano  {
     private static int N = 5;//Num huertas

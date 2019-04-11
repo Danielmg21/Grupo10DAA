@@ -1,4 +1,4 @@
-package com.company;
+package BT;
 
 public class laberinto {
     public static int [] mov_rel_x = {-1,0,0,1};

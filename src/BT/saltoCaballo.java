@@ -1,4 +1,4 @@
-package com.company;
+package BT;
 
 public class saltoCaballo {
     public static int movRealX [] = {2,1,-1,-2,-2,-1,1,2};

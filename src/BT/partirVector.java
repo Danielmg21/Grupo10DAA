@@ -1,4 +1,4 @@
-package com.company;
+package BT;
 
 public class partirVector {
     public static void partirenDos ( int v[]){
