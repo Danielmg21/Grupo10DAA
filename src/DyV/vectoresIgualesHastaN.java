@@ -8,19 +8,19 @@ public class vectoresIgualesHastaN {
         System.out.println("Escriba el primer vector");
         String v1 = lector.nextLine();
         String [] A = v1.split(" ");
-        int [] vA = new int [v1.length()];
-        for (int i=0;i<v1.length();i++){
+        int [] vA = new int [A.length];
+        for (int i=0;i<A.length;i++){
             vA [i] = Integer.parseInt(A[i]);
         }
        System.out.println("Escriba el segundo vector");
         String v2 =lector.nextLine();
         String [] B = v2.split(" ");
-        int vB [] = new int [v2.length()];
-        for (int i =0;i<v2.length();i++) {
+        int vB [] = new int [B.length];
+        for (int i =0;i<B.length;i++) {
             vB [i] = Integer.parseInt(B[i]);
         }
         int posicion = DyV(vA,vB,0,vA.length);
-        System.out.println(posicion);
+        System.out.println(posicion+1);
     }
 
     public static int DyV (int a[] , int b[],int ini,int fin){
