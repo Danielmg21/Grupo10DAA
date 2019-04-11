@@ -5,16 +5,17 @@ public class Subsecuencia {
     int izq;
     int der;
 
-    public SubSecuencia() {
+    /*public Subsecuencia SubSecuencia() {
         izq=0;
         der=-1;
-        suma=Integer.MIN_VALUE;
+        suma= -2;
+        return Subsecuencia;
     }
-    public static SubSecuencia max(SubSecuencia s1, SubSecuencia s2){
+    public static Subsecuencia SubSecuenciaMax(Subsecuencia s1, Subsecuencia s2){
         if (s1.suma>=s2.suma)
             return s1;
         else
             return s2;
     }
-
+*/
 }

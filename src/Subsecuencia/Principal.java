@@ -2,7 +2,7 @@ package Subsecuencia;
 
 public class Principal {
 
-    private static SubSecuencia busquedaDyVRec(int[] a,int prim, int ult) {
+   /* private static SubSecuencia busquedaDyVRec(int[] a,int prim, int ult) {
         // aplicamos el algoritmo directo
         if (ult==prim) {
             SubSecuencia aux = new SubSecuencia ();
@@ -90,5 +90,5 @@ public class Principal {
         System.out.println ("Sustituimos desde: "+solucion.izq+" hasta "+solucion.der+" con valor: "+solucion.suma);
 
     }
-
+*/
 }

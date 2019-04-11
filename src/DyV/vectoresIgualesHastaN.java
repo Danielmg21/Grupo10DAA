@@ -1,4 +1,4 @@
-package com.company;
+package DyV;
 import java.util.Scanner;
 
 public class vectoresIgualesHastaN {
@@ -19,26 +19,30 @@ public class vectoresIgualesHastaN {
         for (int i =0;i<v2.length();i++) {
             vB [i] = Integer.parseInt(B[i]);
         }
-        int distinto = primerDistinto(vA,vB,0,vA.length-1);
+        int posicion = DyV(vA,vB,0,vA.length);
+        System.out.println(posicion);
     }
 
-    public static int primerDistinto (int vA[] , int vB [],int ini,int fin){
+    public static int DyV (int a[] , int b[],int ini,int fin){
         if(ini==fin){
-            if(vA[ini]==vB[ini]){
-                return -1;
-            }else{
+            if(a[ini]!=b[ini]){
                 return ini;
+            }else{
+                return -1;
             }
         }else{
             int medio = (ini+fin)/2;
-            int m1 = primerDistinto (vA,vB,ini,medio);
-            int m2 = primerDistinto (vA,vB,medio+1,fin);
-            if (m1==-1){
-
+            if(a[medio]==b[medio]){
+                return DyV(a,b,medio+1,fin);
+            }else{
+                int posicionAux = DyV(a,b,ini,medio-1);
+                if ((posicionAux<medio)&&(posicionAux!=-1)){
+                    return posicionAux;
+                }else{
+                    return medio;
+                }
             }
         }
-
-
     }
 
 
