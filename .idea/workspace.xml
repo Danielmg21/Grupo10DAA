@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea7b82e-e4d6-49d6-80d7-8226b64c2d81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BT/nReinas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/DyV/Digito.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/DyV/Digito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/DyV/vectoresIgualesHastaN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/DyV/vectoresIgualesHastaN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/RyP/Nodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/RyP/Nodo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/RyP/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/RyP/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Subsecuencia/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/Subsecuencia/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Subsecuencia/Subsecuencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/Subsecuencia/Subsecuencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/Activities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/Voraz/Activities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/SeleccionActividades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/Voraz/SeleccionActividades.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/mochila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/Voraz/mochila.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/Ciclos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/Cubos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/DistanciaK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/ElementoPosicion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/cuboMágico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/hortelano.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/kruskal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/laberinto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/partirVector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/saltoCaballo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BT/nReinas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BT/nReinas.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BT/nReinas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="-474">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -268,10 +246,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49801000" />
+    <option name="totallyTimeSpent" value="50138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -401,13 +379,7 @@
     <entry file="file://$PROJECT_DIR$/src/DyV/vectoresIgualesHastaN.java" />
     <entry file="file://$PROJECT_DIR$/src/Voraz/hortelano.java" />
     <entry file="file://$PROJECT_DIR$/src/DyV/RecolectarMadera.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/NiIdeaQueSon/Ciclos.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/NiIdeaQueSon/Cubos.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/NiIdeaQueSon/DistanciaK.java" />
@@ -422,8 +394,8 @@
     <entry file="file://$PROJECT_DIR$/src/BT/saltoCaballo.java" />
     <entry file="file://$PROJECT_DIR$/src/BT/nReinas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="-474">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>

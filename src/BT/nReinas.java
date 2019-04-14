@@ -2,6 +2,7 @@ package BT;
 
 public class nReinas {
     public static void main (String[]args){
+        int tablero [][]= new int [8][8];
         int solucion [] = new int [8];
         boolean exito;
         exito = BT (solucion,0);
