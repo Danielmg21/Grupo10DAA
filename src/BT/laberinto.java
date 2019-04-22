@@ -2,7 +2,7 @@ package BT;
 
 public class laberinto {
     public static int [] mov_rel_x = {-1,0,0,1};
-    public static int [] mov_rel_y = {0,1,-1,0};
+    public static int [] mov_rel_y = {0,-1,1,0};
 
     public static void imprimir (char tablero[][]){
         System.out.println();
@@ -49,7 +49,7 @@ public class laberinto {
 
 
     }
-    public static boolean esFactibleMejor (char tablero[][],int etapax,int etapay, int numpasos,int nuevax,int nuevay,int intento,char mejorTablero[][]){
+    public static boolean esFactibleMejor (char tablero[][],int nuevax,int nuevay,char mejorTablero[][]){
         if((nuevax<0)||(nuevax >= tablero.length)||(nuevay<0)||(nuevay >= tablero.length))
             return false;
         if((tablero[nuevax][nuevay]=='M')||(tablero[nuevax][nuevay]=='E')||(tablero[nuevax][nuevay]=='X'))
@@ -109,7 +109,7 @@ public class laberinto {
         for (int intento=0;intento<mov_rel_x.length;intento++){
             int nuevax = etapax+mov_rel_x[intento];
             int nuevay = etapax+mov_rel_y[intento];
-            if(esFactibleMejor(tablero,etapax,etapay,numPaso,nuevax,nuevay,intento,mejorTablero)){
+            if(esFactibleMejor(tablero,nuevax,nuevay,mejorTablero)){
                 if(tablero[nuevax][nuevay]=='S'){
                     if(esMejor(tablero,mejorTablero)){
                         copiar(tablero,mejorTablero);
@@ -151,6 +151,16 @@ public class laberinto {
                 mejorTablero[i][j]='X';
             }
         }
+        mejorTablero[0][0] = 'E';
+        mejorTablero[8][8] = 'S';
+
+
+        mejorTablero[1][1] = 'M';
+        mejorTablero[1][2] = 'M';
+        mejorTablero[1][3] = 'M';
+        mejorTablero[1][4] = 'M';
+        mejorTablero[1][5] = 'M';
+
         BTMejor(tablero,0,0,1,mejorTablero);
         imprimir(mejorTablero);
     }
