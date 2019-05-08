@@ -1,5 +1,6 @@
-package com.company.NiIdeaQueSon;
-public class kruskal {
+package VoracesGrafos;
+
+public class Kruskal {
 
     public static int Kruskal (int[][] grafo) {
         // vectores con los arcos del Arbol de recubrimiento minimo
@@ -84,10 +85,3 @@ public class kruskal {
     }
 
 }
-
-
-
-
-
-
-

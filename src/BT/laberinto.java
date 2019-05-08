@@ -108,7 +108,7 @@ public class laberinto {
     public static void BTMejor (char tablero[][],int etapax,int etapay,int numPaso,char mejorTablero[][]){
         for (int intento=0;intento<mov_rel_x.length;intento++){
             int nuevax = etapax+mov_rel_x[intento];
-            int nuevay = etapax+mov_rel_y[intento];
+            int nuevay = etapay+mov_rel_y[intento];
             if(esFactibleMejor(tablero,nuevax,nuevay,mejorTablero)){
                 if(tablero[nuevax][nuevay]=='S'){
                     if(esMejor(tablero,mejorTablero)){
@@ -137,6 +137,9 @@ public class laberinto {
         tablero[1][3] = 'M';
         tablero[1][4] = 'M';
         tablero[1][5] = 'M';
+
+        System.out.println("Tablero inicial: ");
+        imprimir(tablero);
     /*
         boolean exito = BT (tablero,0,0,1);
         if(exito){
@@ -154,14 +157,17 @@ public class laberinto {
         mejorTablero[0][0] = 'E';
         mejorTablero[8][8] = 'S';
 
-
         mejorTablero[1][1] = 'M';
         mejorTablero[1][2] = 'M';
         mejorTablero[1][3] = 'M';
         mejorTablero[1][4] = 'M';
         mejorTablero[1][5] = 'M';
 
+        System.out.println("Tablero mejor inicial: ");
+        imprimir(mejorTablero);
+
         BTMejor(tablero,0,0,1,mejorTablero);
+        System.out.println("El mejor tablero es: ");
         imprimir(mejorTablero);
     }
 }

@@ -1,4 +1,4 @@
-package boracesGrafos;
+package VoracesGrafos;
 
 public class Dijkstra {
 

@@ -1,4 +1,4 @@
-package boracesGrafos;
+package VoracesGrafos;
 
 public class Prim {
     public static int Prim (int[][] grafo) {

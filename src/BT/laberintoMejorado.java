@@ -94,12 +94,15 @@ public class laberintoMejorado {
         }
     }
     public static void main(String[] args) {
+        int n;
         Scanner in = new Scanner(System.in);
-        int n = Integer.parseInt(in.nextLine());
-
+        System.out.print("Introduzca la dimension del tablero[n][n]. n = ");
+        n = in.nextInt();
+        in.nextLine();
         int tablero[][] = new int[n][n];
         int mejorTablero[][] = new int[n][n];
         for (int i = 0; i < n; i++) {
+            System.out.print("Introduzca la linea " + i + " del tablero: ");
             String linea = in.nextLine();
             String trozos[] = linea.split(" ");
             for (int j = 0; j < n; j++) {

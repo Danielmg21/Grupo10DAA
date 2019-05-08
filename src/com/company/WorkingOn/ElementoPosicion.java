@@ -1,4 +1,4 @@
-package com.company.NiIdeaQueSon;
+package com.company.WorkingOn;
 
 import java.util.Scanner;
 

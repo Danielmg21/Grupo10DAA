@@ -1,4 +1,4 @@
-package com.company.NiIdeaQueSon;
+package com.company.WorkingOn;
 
 public class Ciclos {
     public static boolean esFactible (boolean g[][], int k, int sol[], boolean visitados [], int intento) {

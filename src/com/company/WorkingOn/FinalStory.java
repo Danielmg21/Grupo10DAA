@@ -1,6 +1,5 @@
-package com.company.NiIdeaQueSon;
+package com.company.WorkingOn;
 
-import java.util.HashSet;
 import java.util.Scanner;
 
 public class FinalStory {
