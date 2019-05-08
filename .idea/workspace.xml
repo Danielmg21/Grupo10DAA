@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea7b82e-e4d6-49d6-80d7-8226b64c2d81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BT/laberintoMejorado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DyV/PuntoInflexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boracesGrafos/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boracesGrafos/Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boracesGrafos/Prim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTMochila/Algoritmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTMochila/Mochila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BTMochila/Objeto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/DyV/Digito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/DyV/vectoresIgualesHastaN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/RyP/Nodo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/RyP/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Subsecuencia/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Subsecuencia/Subsecuencia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/Activities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/SeleccionActividades.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/Voraz/mochila.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/Coloreado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/EliminaRepe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/ListaNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAA/com/company/RecolectarMadera.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BT/partirVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -47,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boracesGrafos/Prim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="210">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -56,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boracesGrafos/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
+            <state relative-caret-position="1875">
               <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
             </state>
           </provider>
@@ -65,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boracesGrafos/Kruskal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="120">
               <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
@@ -74,26 +59,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BT/laberintoMejorado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1552">
+            <state relative-caret-position="45">
               <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/PuntoInflexion.java">
+        <entry file="file://$PROJECT_DIR$/src/DyV/PuntoInflexion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" lean-forward="true" selection-start-line="1" selection-end-line="32" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RyP/Nodo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DyV/PuntoInflexion.java">
+        <entry file="file://$PROJECT_DIR$/src/BTMochila/Algoritmo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="1395">
+              <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BTMochila/Objeto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BTMochila/Mochila.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -152,10 +164,13 @@
         <option value="$PROJECT_DIR$/src/boracesGrafos/Kruskal.java" />
         <option value="$PROJECT_DIR$/src/BT/laberintoMejorado.java" />
         <option value="$PROJECT_DIR$/src/DyV/PuntoInflexion.java" />
+        <option value="$PROJECT_DIR$/src/BTMochila/Algoritmo.java" />
+        <option value="$PROJECT_DIR$/src/BTMochila/Mochila.java" />
+        <option value="$PROJECT_DIR$/src/BTMochila/Objeto.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -165,29 +180,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Grupo10DAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grupo10DAA" type="462c0819:PsiDirectoryNode" />
+              <item name="DAA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Grupo10DAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grupo10DAA" type="462c0819:PsiDirectoryNode" />
+              <item name="DAA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Grupo10DAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grupo10DAA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DyV" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -328,13 +337,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56612000" />
+    <option name="totallyTimeSpent" value="56777000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15885022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,90 +521,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BT/partirVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Prim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="70" lean-forward="true" selection-start-line="10" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#2334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Prim.java" />
     <entry file="file://$PROJECT_DIR$/src/boracesGrafos/Prim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="133" column="1" lean-forward="true" selection-start-line="10" selection-end-line="133" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#4804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Dijkstra.java" />
     <entry file="file://$PROJECT_DIR$/src/boracesGrafos/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
+        <state relative-caret-position="1875">
           <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Kruskal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="7" selection-end-line="91" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#2870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Kruskal.java" />
     <entry file="file://$PROJECT_DIR$/src/boracesGrafos/Kruskal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="120">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/LaberintoNumeros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="128" lean-forward="true" selection-start-line="7" selection-end-line="128" />
-          <folding>
-            <element signature="e#0#4506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/LaberintoNumeros.java" />
     <entry file="file://$PROJECT_DIR$/src/BT/laberintoMejorado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1552">
+        <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/PuntoInflexion.java">
+    <entry file="file://$USER_HOME$/Desktop/PuntoInflexion.java" />
+    <entry file="file://$PROJECT_DIR$/src/DyV/PuntoInflexion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="1" selection-end-line="32" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DyV/PuntoInflexion.java">
+    <entry file="file://$PROJECT_DIR$/src/RyP/Nodo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RyP/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BTMochila/Objeto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BTMochila/Mochila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BTMochila/Algoritmo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
         </state>
       </provider>
     </entry>
