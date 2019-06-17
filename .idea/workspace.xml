@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea7b82e-e4d6-49d6-80d7-8226b64c2d81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/examen/Blaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examen/Ikeas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examen/Pacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAA/BT/laberintoMejorado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/BT/laberintoMejorado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAA/BT/saltoCaballo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAA/BT/saltoCaballo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examen/Ikeas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examen/Ikeas.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,17 +23,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/examen/Ikeas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1612">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="339">
+              <caret line="52" column="58" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examen/Blaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/examen/Blaster.java">
+        <entry file="file://$PROJECT_DIR$/src/examen/Pacto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="383">
+              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Voraz/mochila.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -93,12 +117,14 @@
         <option value="$PROJECT_DIR$/src/BTMochila/Mochila.java" />
         <option value="$PROJECT_DIR$/src/BTMochila/Objeto.java" />
         <option value="$PROJECT_DIR$/src/BT/saltoCaballo.java" />
+        <option value="$PROJECT_DIR$/src/examen/Blaster.java" />
         <option value="$PROJECT_DIR$/src/examen/Ikeas.java" />
+        <option value="$PROJECT_DIR$/src/examen/Pacto.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -107,8 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,10 +151,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="examen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DAA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Voraz" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,9 +193,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.saltoCaballo">
-    <configuration name="cuboMágico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BT.cuboMágico" />
+  <component name="RunManager" selected="Application.Pacto">
+    <configuration name="Ikeas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen.Ikeas" />
+      <module name="DAA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pacto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen.Pacto" />
+      <module name="DAA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nReinas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BT.nReinas" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="laberinto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BT.laberinto" />
+    <configuration name="partirVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BT.partirVector" />
       <module name="DAA" />
       <extension name="coverage">
         <pattern>
@@ -203,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pacto" />
+        <item itemvalue="Application.Ikeas" />
         <item itemvalue="Application.saltoCaballo" />
         <item itemvalue="Application.nReinas" />
         <item itemvalue="Application.partirVector" />
-        <item itemvalue="Application.laberinto" />
-        <item itemvalue="Application.cuboMágico" />
       </list>
     </recent_temporary>
   </component>
@@ -240,24 +298,26 @@
       <workItem from="1555532748618" duration="1716000" />
       <workItem from="1555838184898" duration="3793000" />
       <workItem from="1556014681277" duration="965000" />
+      <workItem from="1560704765144" duration="675000" />
+      <workItem from="1560759938543" duration="18313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59005000" />
+    <option name="totallyTimeSpent" value="78057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3252818" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32405892" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32569557" />
@@ -340,13 +400,6 @@
     <entry file="file://$USER_HOME$/Desktop/Clase 8-04-2019/Madera/RecolectarMadera.java" />
     <entry file="file://$USER_HOME$/Desktop/Clase 8-04-2019/Subsecuencia/Principal.java" />
     <entry file="file://$USER_HOME$/Desktop/Clase 8-04-2019/Subsecuencia/SubSecuencia.java" />
-    <entry file="file://$PROJECT_DIR$/src/Voraz/mochila.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Subsecuencia/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1508">
@@ -361,22 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voraz/Activities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voraz/SeleccionActividades.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DyV/vectoresIgualesHastaN.java" />
-    <entry file="file://$PROJECT_DIR$/src/Voraz/hortelano.java" />
     <entry file="file://$PROJECT_DIR$/src/DyV/RecolectarMadera.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/NiIdeaQueSon/Ciclos.java" />
@@ -491,17 +529,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Blaster/Blaster/src/blaster/Blaster.java" />
+    <entry file="file://$PROJECT_DIR$/src/Voraz/Activities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Voraz/hortelano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/examen/Ikeas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1612">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="339">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/examen/Blaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="-180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Voraz/SeleccionActividades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Voraz/mochila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examen/Pacto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
         </state>
       </provider>
     </entry>

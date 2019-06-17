@@ -8,31 +8,9 @@ public class Ikeas {
     public static int [] mov_rel_x={-1,0,0,1};
     public static int [] mov_rel_y={0,1,-1,0};
 
-    public static void imprimir (int tablero[][]) {
 
-        System.out.println ();
-        System.out.println ();
-        System.out.println ();
-
-        for (int i=0; i<tablero.length; i++) {
-            for (int j=0; j<tablero[0].length; j++) {
-                System.out.print (tablero[i][j]+"  ");
-            }
-            System.out.println ();
-        }
-    }
-
-    public static void Copiar (int tablero[][], int mejorTablero[][]) {
-        int contX=0;
-        for (int i=0; i<mejorTablero.length; i++) {
-            for (int j=0; j<mejorTablero[0].length; j++) {
-                mejorTablero[i][j]=tablero[i][j];
-            }
-        }
-    }
     public static boolean esFactible (int tablero[][],
-                                      int nueva_x, int nueva_y, int salida_x, int salida_y,
-                                      int mejorTablero[][], int mejorDistancia[], int numPasos) {
+                                      int nueva_x, int nueva_y,int mejorDistancia[], int numPasos) {
 
         if ((nueva_x<0) || (nueva_x>=tablero.length) || (nueva_y<0) || (nueva_y>=tablero[0].length) )
             return false;
@@ -52,15 +30,13 @@ public class Ikeas {
         }
         return alcanzadas;
     }
-    public static void BTMejor (int tablero[][], int etapax, int etapay, int salidaX, int salidaY,
-                                int mejorTablero[][],int mejorDistancia[], int numPasos, boolean seccionesVisitadas []) {
+    public static void BTMejor (int tablero[][], int etapax, int etapay, int salidaX, int salidaY,int mejorDistancia[], int numPasos, boolean seccionesVisitadas []) {
         for (int intento=0; intento<mov_rel_x.length; intento++) {
             int nueva_x = etapax+mov_rel_x[intento];
             int nueva_y = etapay+mov_rel_y[intento];
-            if (esFactible (tablero, nueva_x, nueva_y, salidaX, salidaY, mejorTablero, mejorDistancia, numPasos)) {
+            if (esFactible (tablero, nueva_x, nueva_y, mejorDistancia, numPasos)) {
                 if ((nueva_x==salidaX) && (nueva_y==salidaY) && (todasAlcanzadas(seccionesVisitadas))) {
                     if (mejorDistancia[0]>numPasos+1) {
-                        Copiar (tablero, mejorTablero);
                         mejorDistancia[0]=numPasos+1;
                     }
                 }else {
@@ -72,13 +48,7 @@ public class Ikeas {
                         alcanzamosSeccionYAntesNoEstaba=true;
                     }
                     tablero[nueva_x][nueva_y]=8;
-                    /*
-                    imprimir (tablero);
-                    System.out.println (nueva_x+","+nueva_y);
-                    Scanner entrada = new Scanner (System.in);
-                    entrada.nextLine();
-                    */
-                    BTMejor (tablero, nueva_x, nueva_y, salidaX, salidaY, mejorTablero,mejorDistancia,numPasos+1, seccionesVisitadas);
+                    BTMejor (tablero, nueva_x, nueva_y, salidaX, salidaY,mejorDistancia,numPasos+1, seccionesVisitadas);
                     tablero[nueva_x][nueva_y]=old;
                     if (alcanzamosSeccionYAntesNoEstaba) {
                         seccionesVisitadas[old]=false;
@@ -101,6 +71,7 @@ public class Ikeas {
         int salidaX=-1;
         int salidaY=-1;
         int tablero[][]=new int[numFilas][numColumnas];
+
         for (int i=0; i<numFilas; i++) {
             linea = entrada.nextLine();
             trozos=linea.split(" ");
@@ -119,7 +90,7 @@ public class Ikeas {
 
         int mejorDistancia[]= new int[1];
         mejorDistancia[0]=numFilas*numColumnas;
-        int mejorTablero[][]=new int[numFilas][numColumnas];
+
 
         boolean seccionesVisitadas [] = new boolean[numSecciones+3];
         seccionesVisitadas[0]=true;
@@ -127,8 +98,7 @@ public class Ikeas {
         seccionesVisitadas[2]=true;
 
 
-        BTMejor (tablero, entradaX,entradaY,salidaX,salidaY,mejorTablero, mejorDistancia,1, seccionesVisitadas);
-        imprimir (mejorTablero);
+        BTMejor (tablero, entradaX,entradaY,salidaX,salidaY, mejorDistancia,1, seccionesVisitadas);
         System.out.println ("NumPasos: "+mejorDistancia[0]);
     }
 
